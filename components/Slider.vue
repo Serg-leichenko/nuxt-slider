@@ -80,7 +80,7 @@ img {
 .slider-text {
   position: absolute;
   color: #fff;
-  top: 50%;
+  top: 40%;
   z-index: 1;
 }
 .subtitle {
