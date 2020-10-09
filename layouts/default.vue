@@ -1,8 +1,23 @@
 <template>
   <div>
+    <div class="container">
+      <Header />
+      <Slider />
+    </div>
     <Nuxt />
   </div>
 </template>
+
+<script>
+import Header from '@/components/Header';
+import Slider from '@/components/Slider';
+export default {
+  components: {
+    Header,
+    Slider
+  }
+};
+</script>
 
 <style>
 html {
