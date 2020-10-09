@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <div class="container">
-      <Header />
-      <Slider />
-    </div>
+  <div class="container">
+    <Header />
+    <Slider />
     <Nuxt />
-  </div>
+  </div>    
 </template>
 
 <script>
